@@ -1,0 +1,16 @@
+{
+  "name": "CS361-Project",
+  "version": "1.0.0",
+  "description": "CS361-400 Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Jarc",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+	"mysql": "^2.8.0"
+  }
+}
