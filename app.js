@@ -14,6 +14,7 @@ app.set('port', process.argv[2]);
 app.set('mysql', mysql);
 
 // Table routes
+app.use('/user', require('./user.js'));
 app.use('/reminders', require('./reminders.js'));
 app.use('/log', require('./log.js'));
 
